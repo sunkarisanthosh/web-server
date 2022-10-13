@@ -1,6 +1,6 @@
 resource "google_storage_bucket" "startup-script" {
   name     = "var.name"
-  location = "var.region"
+  location = "EU"
   project  = "var.project"
 }
 
