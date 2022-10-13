@@ -3,7 +3,7 @@ data "google_compute_image" "debian" {
     project = "debian-cloud"
 }
 
-# Creates a GCP VM Instance.  Metadata Startup script install the Nginx webserver.
+# Creates a GCP VM Instance.  
 resource "google_compute_instance" "vm" {
   name         = var.name
   machine_type = var.machine_type
