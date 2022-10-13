@@ -1,7 +1,7 @@
 resource "google_storage_bucket" "startup-script" {
   name     = "var.name"
   location = "EU"
-  project  = "var.project"
+  project  = "var.project_id"
 }
 
 resource "google_storage_bucket_object" "picture" {
