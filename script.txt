@@ -1,0 +1,2 @@
+apt update 
+&& apt -y install apache2 && echo "Hello Earth" > /var/www/html/index.html
