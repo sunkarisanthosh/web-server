@@ -25,4 +25,5 @@ resource "google_compute_instance" "vm" {
   }
 
  metadata_startup_script = "${file("script.txt")}"
+    
 }
